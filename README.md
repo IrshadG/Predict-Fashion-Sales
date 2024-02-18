@@ -25,11 +25,11 @@ The best-performing neural network was created using two LSTM layers, each follo
 After testing the model with dozens of variations, the below results depict model's performance with major variations.
 
 (Best result is underlined)
-|| LSTM (M) wrong t_set [Sales, GTrends] [e=60] | LSTM (M) seq change [Sales, GTrends] [e=80] | LSTM (M) correlated data [Sales, GTrends] [e=80] | SARIMAX Single Variate |
-|---|---|---|---|---|
-Mean Square Error(MSE)| 0.0002 | <ins>***4.00E-05***</ins> | 8.12E-05 | 6.63E-05 |	
-Mean Absolute Error(MAE)| 0.0048 | <ins>***0.0028***</ins> | 0.0051 | 0.0034	|
-Mean Absolute Percentage Error(MAPE)| 4100.0298 | <ins>***361.37***</ins> | 1228.8279 | 76.6989 |
+|| LSTM (M) seq change [Sales, GTrends] [e=80] | LSTM (M) correlated data [Sales, GTrends] [e=80] | SARIMAX Single Variate |
+|---|---|---|---|
+Mean Square Error(MSE)|  <ins>***4.00E-05***</ins> | 8.12E-05 | 6.63E-05 |	
+Mean Absolute Error(MAE)|  <ins>***0.0028***</ins> | 0.0051 | 0.0034	|
+Mean Absolute Percentage Error(MAPE)|  <ins>***361.37***</ins> | 1228.8279 | 76.6989 |
 
 ## Future Work
 
